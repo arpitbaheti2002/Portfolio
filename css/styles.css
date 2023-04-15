@@ -1,0 +1,184 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  padding: 2% 10% 2% 5%;
+  font-size: large;
+}
+
+.nav-item{
+  padding: 0 1%;
+  font-size: medium;
+}
+
+#home{
+  margin-bottom: 100px;
+}
+
+.hero-image {
+  background-image: linear-gradient(to right, rgba(31, 102, 26, 0.7), rgba(48, 121, 44, 0.6), rgba(31, 102, 26, 0.7)), url("UniversityPicture2.png");
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 20rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.title-name{
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  background-color: rgba(9, 82, 14, 0.15);
+  width: fit-content;
+  margin: auto;
+  letter-spacing: 0.01em;
+}
+
+.title-pos{
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  background-color: rgba(9, 82, 14, 0.15);
+  margin: 2% 0 5%;
+  letter-spacing: 0.01em;
+}
+
+button{
+  width: 150px;
+  margin: 2% 4%;
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 20px;
+  text-align: center;
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button :hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+}
+
+.profile-picture{
+  height: 10rem;
+  margin: 1.5rem 0 1.5rem;
+}
+
+.social-icons{
+  height: 3.5rem;
+  position: relative;
+  top: 42px;
+  border-radius: 100%;
+  margin: 0 15px;
+}
+
+#about{
+  margin: 0 10rem 80px 10rem;
+}
+
+.card-group{
+  box-shadow: 0 0 30px rgba(22, 120, 63, 0.5);
+}
+
+#professional-skills{
+  margin: 0 10rem 80px 10rem;
+}
+
+#professional-skills h2{
+  text-align: center;
+}
+
+#projects{
+  margin: 0 10rem 80px 10rem;
+  text-align: center;
+}
+
+#projects h2{
+  text-align: center;
+}
+
+.project-image{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#education{
+  margin: 0 10rem 80px 10rem;
+}
+
+#education h2{
+  text-align: center;
+}
+
+.education-header{
+  text-align: center;
+}
+
+#acheivements{
+  margin: 0 10rem 80px 10rem;
+  text-align: center;
+}
+
+.carousel-indicators .li{
+  background-color: #f00;
+}
+
+
+.map-image {
+  background-image: linear-gradient(rgba(5, 52, 19, 0.5), rgba(22, 120, 63, 0.5)), url("map.jpeg");
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#contact{
+  margin-bottom: 30px;
+}
+
+.contact-page{
+  height: 25rem;
+  width: 50rem;
+  background-color: white;
+  position: absolute;
+  left: 20rem;
+  top: 5rem;
+  text-align: center;
+}
+
+.contact-page .card-group{
+  box-shadow: none;
+  text-align: left;
+}
+
+#footer{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.fa-brands{
+  font-size: 2rem;
+}
