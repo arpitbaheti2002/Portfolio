@@ -1,5 +1,4 @@
 body, html {
-
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -99,6 +98,18 @@ button :hover {
 
 #about{
   margin: 0 10rem 80px 10rem;
+}
+
+.basic-details{
+  line-height: 2.5;
+}
+
+.about-text{
+  text-align: justify;
+}
+
+.info{
+  padding-left: 50px;
 }
 
 .card-group{
