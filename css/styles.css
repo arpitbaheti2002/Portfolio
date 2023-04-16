@@ -14,7 +14,8 @@ a:hover{
 .heading{
   font-weight: bold;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .text-justify{
@@ -167,7 +168,6 @@ button :hover {
   max-width: 100%;
   max-height: 150%;
   border-radius: 5%;
-  /* margin: 20px; */
 }
 
 #education{
@@ -191,7 +191,7 @@ button :hover {
 
 .education-header{
   text-align: center;
-  margin: 45px 0;
+  margin: 60px 0;
   color: #fff;
   font-weight: 600;
 }
@@ -226,17 +226,27 @@ button :hover {
 }
 
 .contact-page{
-  height: 25rem;
-  width: 50rem;
+  height: 25%;
+  width: 50%;
   background-color: white;
   position: absolute;
-  left: 20rem;
-  top: 5rem;
+  left: 25%;
+  top: 9%;
   text-align: center;
+  border-radius: 1%;
+}
+
+.contact-me{
+  margin: 40px auto 25px auto;
+  font-weight: bold;
 }
 
 .contact-page .card-group{
   text-align: left;
+}
+
+.contact-details{
+  margin: 40px auto;
 }
 
 #footer{
@@ -246,4 +256,18 @@ button :hover {
 
 .fa-brands{
   font-size: 2rem;
+  margin: 10px 10px 20px 10px;
+  color: black;
+}
+
+.fa-linkedin:hover{
+  color: blue;
+}
+
+.fa-twitter:hover{
+  color: blue;
+}
+
+.fa-instagram:hover{
+  color: maroon;
 }
