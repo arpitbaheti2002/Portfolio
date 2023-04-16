@@ -25,6 +25,10 @@ a:hover{
   box-shadow: 0 0 30px rgba(22, 120, 63, 0.5);
 }
 
+.col-md-8{
+  padding: 20px;
+}
+
 .navbar{
   padding: 2% 10% 2% 5%;
   font-size: large;
@@ -163,17 +167,43 @@ button :hover {
   max-width: 100%;
   max-height: 150%;
   border-radius: 5%;
+  /* margin: 20px; */
 }
 
 #education{
   margin: 0 10rem 80px 10rem;
 }
 
-#education h2{
-  text-align: center;
+.education-card{
+  margin: 20px 0;
+  border-radius: 1%;
+  height: 100%;
+}
+
+.education-card-left{
+  background-color: #13aa52;
+  height: 100%;
+}
+
+#education .col-md-3{
+  padding: 0;
 }
 
 .education-header{
+  text-align: center;
+  margin: 45px 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.institute{
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.stream{
+  font-weight: 700;
   text-align: center;
 }
 
@@ -181,11 +211,6 @@ button :hover {
   margin: 0 10rem 80px 10rem;
   text-align: center;
 }
-
-.carousel-indicators .li{
-  background-color: #f00;
-}
-
 
 .map-image {
   background-image: linear-gradient(rgba(5, 52, 19, 0.5), rgba(22, 120, 63, 0.5)), url("map.jpeg");
