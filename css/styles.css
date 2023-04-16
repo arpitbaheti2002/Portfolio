@@ -7,6 +7,24 @@ body, html {
   font-family: 'Montserrat', sans-serif;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
+.heading{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.shadow{
+  box-shadow: 0 0 30px rgba(22, 120, 63, 0.5);
+}
+
 .navbar{
   padding: 2% 10% 2% 5%;
   font-size: large;
@@ -104,24 +122,20 @@ button :hover {
   line-height: 2.5;
 }
 
-.about-text{
-  text-align: justify;
-}
-
 .info{
   padding-left: 50px;
-}
-
-.card-group{
-  box-shadow: 0 0 30px rgba(22, 120, 63, 0.5);
 }
 
 #professional-skills{
   margin: 0 10rem 80px 10rem;
 }
 
-#professional-skills h2{
-  text-align: center;
+#professional-skills hr{
+  background-color: #13aa52;
+}
+
+#professional-skills .card-group{
+  font-weight: bold;
 }
 
 #projects{
@@ -129,13 +143,26 @@ button :hover {
   text-align: center;
 }
 
-#projects h2{
-  text-align: center;
+.portfolio-project{
+  padding: 30px 0;
+  color: black;
+}
+
+.portfolio-project:hover{
+  box-shadow: 0 0 30px rgba(22, 120, 63, 0.5);
+  border-radius: 2%;
+  background-color: rgba(22, 120, 63, 0.5);
+  color: #fff;
+}
+
+.project-head{
+  font-weight: 600;
 }
 
 .project-image{
   max-width: 100%;
-  max-height: 100%;
+  max-height: 150%;
+  border-radius: 5%;
 }
 
 #education{
@@ -184,7 +211,6 @@ button :hover {
 }
 
 .contact-page .card-group{
-  box-shadow: none;
   text-align: left;
 }
 

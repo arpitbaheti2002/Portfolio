@@ -62,16 +62,16 @@
     </section>
 
     <section id="about">
-      <div class="row card-group">
+      <div class="row card-group shadow">
         <div class="col-sm">
           <div class="card border-0">
             <div class="card-body">
               <h4 class="card-title"><strong>About</strong></h4>
-              <p class="card-text about-text">
+              <p class="card-text text-justify">
                 Hello! I am Arpit Baheti, and I am currently a student 
                 pursuing a degree in Computer Science Engineering at VIT Bhopal University.
               </p>
-              <p class="card-text about-text">
+              <p class="card-text text-justify">
                 Through this website, I hope to showcase my skills and 
                 experience, as well as provide a glimpse into my interests and personality. 
                 You can expect to find information about my projects, achievements, and goals, 
@@ -113,9 +113,9 @@
     </section>
 
     <section id="professional-skills">
-      <h2>Professional Skills</h2>
-      <div class="card-group">
-        <div class="card border-right-0">
+      <h2 class="heading">Professional Skills</h2>
+      <div class="card-group shadow">
+        <div class="card border-0">
           <div class="card-body">
             <p>C++</p>
             <hr>
@@ -125,7 +125,7 @@
             <hr>
           </div>
         </div>
-        <div class="card border-left-0">
+        <div class="card border-0">
           <div class="card-body">
             <p>HTML</p>
             <hr>
@@ -139,43 +139,48 @@
     </section>
 
     <section id="projects">
-      <h2>Projects</h2>
+      <h2 class="heading">Projects</h2>
       <div class="card border-0">
-        <div class="row">
-          <div class="portfolio-project col-md-4">
-            <img class="project-image" src="css/secure-a.png">
-          </div>
-          <div class="portfolio-project col-md-8">
-            <h3>Auto Login and Logout System</h3>
-            <p>
-              Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna 
-              quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos 
-              tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta 
-              vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus 
-              parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="portfolio-project col-md-8">
-            <h3>Flight Deal Finder</h3>
-            <p>
-              Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna 
-              quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos 
-              tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta 
-              vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus 
-              parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.
-            </p>
-          </div>
-          <div class="portfolio-project col-md-4">
-            <img class="project-image" src="css/secure-a.png">
-          </div>
-        </div>
+        <a href=" https://github.com/arpitbaheti2002/Secura">
+          <container class="row portfolio-project">
+            <div class="col-md-8">
+              <h3 class="project-head">Auto Login and Logout System</h3>
+              <br>
+              <p class="text-justify">
+                A secure login and logout system for social media accounts using face recognition 
+                and voice recognition technology. The project was implemented using Python, OpenCV, 
+                face recognition module, Selenium, and PyAudio. This system provides a reliable and 
+                secure way for users to authenticate and access their social media accounts. 
+                The project has practical applications in improving the security of online accounts.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img class="project-image" src="css/secure-a.png">
+            </div>
+          </container>
+        </a>
+        <a>
+          <container class="row portfolio-project ">
+            <div class="col-md-4">
+              <img class="project-image" src="css/flight-deal.png">
+            </div>
+            <div class="col-md-8">
+              <h3 class="project-head">Flight Deal Finder</h3>
+              <p class="text-justify">
+                This project uses Python to automate the process of finding the best round-trip flight 
+                deals for a given destination. By checking Google Sheets via Sheety API for the 
+                destination, the program then queries the Kiwi API to retrieve the cheapest flights 
+                available within the next few months. This project demonstrates the use of APIs and 
+                automation to simplify the flight search process for users.
+              </p>
+            </div>
+          </container>
+        </a>
       </div>
     </section>
 
     <section id="education">
-      <h2>Education</h2>
+      <h2 class="heading">Education</h2>
       <div class="card">
         <div class="row">
           <div class="col-md-3 bg-primary">
